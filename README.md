@@ -1,11 +1,11 @@
 # Neural Networks for Handwritten Digit Recognition, Multiclass
 
-This project is one of my assignments for the Machine Learning course. In this project, there is a practice lab to implement neural networks for handwritten digit recognition for multiclasses.
+This project is one of my second assignment for the Machine Learning course. In this project, there is a practice lab to implement neural networks for handwritten digit recognition in multiclasses.
 
 ## 1. Packages
-In this lab, we mainly use two packages: [numpy](www.numpy.org) and [matplotlib](http://matplotlib.org). numpy can process data by working with matrices, and matplotlib can visualize data by plotting graphs. We use the `import` command to import these packages.
+In this lab, we used a lot of packages: numpy, tensorflow, matplotlib, and logging. Numpy can process data by working with matrices, tensorflow can create machine learning models, matplotlib can visualize data by plotting graphs and logging can emit log messages from Python programs. We use the `import` command to import these packages.
 
-## 2. Problem Statement
+## 2. ReLU Activation
 Based on the data of population and corresponding profits of the cities where the chain has restaurants, and the data of population of the candidate cities, the CEO of the restaurant franchise wants to find the candidate city that can give potentially higher profits.
 
 ## 3. Dataset
