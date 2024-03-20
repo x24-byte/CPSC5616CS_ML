@@ -15,7 +15,9 @@ The softmax function is used to convert the output layer's N outputs into decima
 The N outputs is a vector $\mathbf{z}$, and $\mathbf{z}$ comes from the linear fuction $z = \mathbf{w} \cdot \mathbf{x} + b$.    
 
 ## 4. Linear regression
-$$f_{w, b}(x) = wx + b$$
+$$
+a_j = \frac{e^{z_j}}{\sum_{k=0}^{N-1} e^{z_k}}
+$$
 This is the linear regression function used to find the relationship between `x` (population) and `y` (profit). In this model, we need to find the proper parameter $(w,b)$ for our dataset.  
 
 In order to find the best $(w, b)$ for our dataset, we can use cost function $J(w,b)$ to evaluate it. It means that the best fitting $(w, b)$ has the smallest cost $J(w, b)$.  
