@@ -1,6 +1,6 @@
 # Neural Networks for Handwritten Digit Recognition, Multiclass
 
-This project is one of my second assignment for the Machine Learning course. In this project, there is a practice lab to implement neural networks for handwritten digit recognition in multiclasses.
+This project is my second assignment for the Machine Learning course. In this project, there is a practice lab to implement neural networks for handwritten digit recognition in multiclasses.
 
 ## 1. Packages
 In this lab, we used a lot of packages: NumPy, Tensorflow, matplotlib, and logging. Numpy can process data by working with matrices, tensorflow can create machine learning models, matplotlib can visualize data by plotting graphs and logging can emit log messages from Python programs. We use the `import` command to import these packages.  
