@@ -1,6 +1,6 @@
-# Linear Regression with one variable using Python
+# Neural Networks for Handwritten Digit Recognition, Multiclass
 
-This project is one of my assignments for the Machine Learning course. In this project, there is a lab to implement linear regression with one variable to predict a restaurant franchise's profits using Python.
+This project is one of my assignments for the Machine Learning course. In this project, there is a practice lab to implement neural networks for handwritten digit recognition for multiclasses.
 
 ## 1. Packages
 In this lab, we mainly use two packages: [numpy](www.numpy.org) and [matplotlib](http://matplotlib.org). numpy can process data by working with matrices, and matplotlib can visualize data by plotting graphs. We use the `import` command to import these packages.
