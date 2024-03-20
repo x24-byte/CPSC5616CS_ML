@@ -19,7 +19,7 @@ We can use NumPy to implement the sofmax function, and tensorflow also has this 
 In this project, we implement a neural network to do multiclass classification which is to figure out ten handwritten numbers from 0 to 9.  
 The dataset of this project has 5000 examples of handwritten digits, and each example has 400 digits.  
 The model has three layers: two layers using ReLU activations and an output layer using linear activation. Each layer has 25 units, 15 units and 10 units respectively.   
-We can use Tensorflow to implement this model's layers, and use softmax fuction to convert outputs to probabilities. We can also use the loss function and an optimizer in this model.  
+We can use Tensorflow to implement this model's layers, and use softmax fuction to convert outputs to probabilities. We The loss function and an optimizer are also used in this model.  
 
 ##
 After the above steps, we can build a neural networks model for recognizing handwritten digits.  
