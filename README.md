@@ -26,4 +26,4 @@ After the above steps, we can build a neural networks model for recognizing hand
 
 
 ## Related link: 
-[https://github.com/x24-byte/CPSC5616CS_ML/blob/main/C2_W2_Assignment.ipynb]
+[C2_W2_Assignment](https://github.com/x24-byte/CPSC5616CS_ML/blob/main/C1_W2_Linear_Regression.ipynb)
