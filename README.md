@@ -19,20 +19,10 @@ We can use NumPy to implement the sofmax function, and tensorflow also has this 
 In this project, we implement a neural network to do multiclass classification which is to figure out ten handwritten numbers from 0 to 9.  
 The dataset of this project has 5000 examples of handwritten digits, and each example has 400 digits.  
 The model has three layers: two layers using ReLU activations and an output layer using linear activation. Each layer has 25 units, 15 units and 10 units respectively. 
-We can use Tensorflow to implement this model's layers, and use softmax fuction to convert outputs to probabilities.  
-
-## 5. Compute Cost
-We build the `compute_cost()` function to compute the cost $J(w, b)$. In this function, we use a loop to get the sum of the costs of every training example. After that, we check our code by running the test code.
-
-## 6. Gradient descent
-We build the `compute_gradient` function to compute the total gradient. In this function, we use another loop to get the total gradient for the parameters $w, b$ from all the training examples. After that, we check our code by running the test code.
+We can use Tensorflow to implement this model's layers, and use softmax fuction to convert outputs to probabilities. We can also use the loss function and an optimizer in this model.  
 
 ##
-After the above steps, we get the functons of `compute_cost()` and `compute_gradient`. Using these two functions, batch gradient descent and appropriate learning rate, we can obtain the optimal parameters $w, b$.
-
-We can use the final parameters $w, b$ to compute the predictions for all the dataset and plot the linear fit.
-
-Finally, we use the final parameters $w, b$ to predict the profits of the candidate cities, so that the CEO can choose the candidate city that can make the highest profit.
+After the above steps, we can build a neural networks model for recognizing handwritten digits.  
 
 
 ## Related link: 
