@@ -10,7 +10,7 @@ $$a = max(0, z)$$
 In this lab, the new activation Rectified Linear Unit (ReLU) is used for countinuous linear relationship. When the input is less than zero, the output is zero, and when the input is not less than zero, the output is linear.  
 
 ## 3. Softmax Function
-$$a_j = \frac{e^{z_j}}{ \sum_{k=0}^{N-1}{e^{z_k} }} \tag{1}$$
+$$a_j = \frac{e^{z_j}}{ \sum_{k=0}^{N-1}{e^{z_k} }}$$
 The softmax function is used to convert the output layer's N outputs into decimals that between 0 and 1 that represents probabilities of every outputs.  
 The N outputs is a vector $\mathbf{z}$, and $\mathbf{z}$ comes from the linear fuction $z = \mathbf{w} \cdot \mathbf{x} + b$.    
 
