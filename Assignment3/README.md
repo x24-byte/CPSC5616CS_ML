@@ -45,5 +45,5 @@ In this section, we'll employ the previously created functions to build a decisi
 
 
 ## Related link: 
-[C2_W2_Assignment](https://github.com/x24-byte/CPSC5616CS_ML/blob/main/C2_W2_Assignment.ipynb)
+[C2_W4_Decision_Tree_Assignment](https://github.com/x24-byte/CPSC5616CS_ML/blob/main/Assignment3/C2_W4_Decision_Tree_with_Markdown.ipynb)
 
