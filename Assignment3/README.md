@@ -24,8 +24,6 @@ $$H(p_1) = -p_1 \text{log}_2(p_1) - (1- p_1) \text{log}_2(1- p_1)$$
 ### 4.2 Split dataset  
 Our next step is to create the second helper function named split_dataset. This function will divide the data at a certain point, based on a chosen feature, into two parts: left and right. It uses our training data, specific data point indices at that point and the feature we're splitting by.  
 
-### 4.3 Calculate information gain
-
 ### 4.3  Calculate information gain
 The third function we need to build is called `information_gain` that uses the training data, the indices at a node and a feature to split on and returns the information gain from the split.  
 
@@ -38,6 +36,12 @@ In this function:
 - $H(p_1^\text{left})$: the left branches's entropies after split;
 - $H(p_1^\text{right})$: the right branches's entropies after split; 
 - $w^{\text{left}}$ and $w^{\text{right}}$: the proportion of examples at the left and right branches, respectively.
+
+### 4.4 Get best split
+Let's create the fourth function that identifies the optimal feature to split on by calculating the information gain for each feature, as previously described, and then returning the feature that provides the highest information gain.  
+
+## 5 Building the tree
+In this section, we'll employ the previously created functions to build a decision tree, selecting the optimal feature for each split until we meet our stopping condition, which in this case is a maximum depth of 2.  
 
 
 ## Related link: 
