@@ -15,14 +15,29 @@ We turned the feature values into 0 or 1 for easy implementation:
 - X_train contains three features for each example: Brown Color (1-"Brown", 0-"Red"), Tapering Shape (1-"Tapering Stalk Shape", 0-"Enlarging"), and Solitary (1-"Yes", 0-"No").
 - y_train is whether the mushroom is edible: y = 1 indicates edible, y = 0 indicates poisonous.  
 
-## 4. Decision Tree Refresher
-### 4.1 Calculate entropy
-The helper function `compute_entropy` computes the entropy at a node. This function takes in a numpy array that indicates whether the examples in that node are edible or poisonous. The entropy is calculated as  
-$$H(p_1) = -p_1 \text{log}_2(p_1) - (1- p_1) \text{log}_2(1- p_1)$$
-  
+## 4. Decision Tree Refresher  
 
-##
-After the above steps, we can build a neural networks model for recognizing handwritten digits.  
+### 4.1 Calculate entropy  
+The first helper function `compute_entropy` computes the entropy at a node. This function takes in a numpy array that indicates whether the examples in that node are edible or poisonous. The entropy is calculated as  
+$$H(p_1) = -p_1 \text{log}_2(p_1) - (1- p_1) \text{log}_2(1- p_1)$$    
+  
+### 4.2 Split dataset  
+Our next step is to create the second helper function named split_dataset. This function will divide the data at a certain point, based on a chosen feature, into two parts: left and right. It uses our training data, specific data point indices at that point and the feature we're splitting by.  
+
+### 4.3 Calculate information gain
+
+### 4.3  Calculate information gain
+The third function we need to build is called `information_gain` that uses the training data, the indices at a node and a feature to split on and returns the information gain from the split.  
+
+The `compute_information_gain()` function is below:  
+
+$$\text{Information Gain} = H(p_1^\text{node})- (w^{\text{left}}H(p_1^\text{left}) + w^{\text{right}}H(p_1^\text{right}))$$
+
+In this function: 
+- $H(p_1^\text{node})$: node's entropy;   
+- $H(p_1^\text{left})$: the left branches's entropies after split;
+- $H(p_1^\text{right})$: the right branches's entropies after split; 
+- $w^{\text{left}}$ and $w^{\text{right}}$: the proportion of examples at the left and right branches, respectively.
 
 
 ## Related link: 
