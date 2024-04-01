@@ -2,7 +2,7 @@
 # K-means Clustering for Image Compression
 
 ## 1. Overview
-This project is my fourth assignment for the Machine Learning course. In this project, it presents an exploration of the K-means clustering algorithm, a fundamental unsupervised learning technique. Our focus is on applying K-means to a practical problem: image compression. Through this project we can gain insights into both the theory and application of K-means, starting from basic principles to implementing the algorithm for reducing image color depth, thereby compressing the image.  
+This project is my fourth assignment for the Machine Learning course. In this project, it presents an exploration of the K-means clustering algorithm, a fundamental unsupervised learning technique. Through this project we can gain insights into both the theory and application of K-means, starting from basic principles to implementing the algorithm for reducing image color depth, thereby compressing the image.  
 
 ## 2. Getting Started
 Packages:
@@ -14,7 +14,8 @@ Packages:
 3.1 Introduction to K-means Clustering: Learn about the K-means algorithm: an iterative process that groups data into clusters based on similarity.  
 3.2 Implementing K-means:   
 - Finding Closest Centroids: Understand how to assign data points to the nearest cluster centroid.  
-- Computing Centroid Means: Learn to recalculate centroids based on the assigned data points.  
+- Computing Centroid Means: Learn to recalculate centroids based on the assigned data points.
+  
 3.3 Applying K-means on a Sample Dataset: Visualize how K-means iteratively refine cluster assignments to minimize variance within clusters.  
 3.4 Random Initialization: Explore the significance of random initialization in the performance and outcome of the K-means algorithm.  
 3.5 Image Compression with K-means: Apply K-means to reduce the number of colors in an image, demonstrating an application of clustering in image compression.  
