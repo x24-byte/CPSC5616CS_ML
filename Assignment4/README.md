@@ -13,9 +13,8 @@ Packages:
 ## 3. Contents
 1. Introduction to K-means Clustering: Learn about the K-means algorithm: an iterative process that groups data into clusters based on similarity.  
 2. Implementing K-means:   
-  - Finding Closest Centroids: Understand how to assign data points to the nearest cluster centroid.  
-  - Computing Centroid Means: Learn to recalculate centroids based on the assigned data points.
-  
+    - Finding Closest Centroids: Understand how to assign data points to the nearest cluster centroid.  
+    - Computing Centroid Means: Learn to recalculate centroids based on the assigned data points.
 3. Applying K-means on a Sample Dataset: Visualize how K-means iteratively refine cluster assignments to minimize variance within clusters.  
 4. Random Initialization: Explore the significance of random initialization in the performance and outcome of the K-means algorithm.  
 5. Image Compression with K-means: Apply K-means to reduce the number of colors in an image, demonstrating an application of clustering in image compression.  
