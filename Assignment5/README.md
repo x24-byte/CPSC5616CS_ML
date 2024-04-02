@@ -15,7 +15,7 @@ This project is my fifth assignment for the Machine Learning course. It contains
 
 **Usage**: 
 - Load the Data: Start by loading the movie dataset, which contains user ratings for various movies.  
-- Customize Your Ratings: Input your ratings for any movies you've already seen. This will be used as the basis for your recommendations.  
+- Customize the Ratings: Input the ratings for any movies. This will be used as the basis for the recommendations.  
 - Train the Model: Execute the collaborative filtering algorithm to learn from the dataset.  
 - Get Recommendations: Once the model is trained, we can see which movies the system recommends based on the input.  
 
